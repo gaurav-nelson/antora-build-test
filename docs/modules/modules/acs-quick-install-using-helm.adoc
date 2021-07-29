@@ -1,0 +1,45 @@
+// Module included in the following assemblies:
+//
+// * installing/installing_helm/install-helm-quick.adoc
+:_module-type: PROCEDURE
+[id="installing-quickly_{context}"]
+= Installing quickly
+
+Use the following instructions to install {product-title} without any customizations.
+
+.Procedure
+
+* Run the following command to install {product-title} and expose it using a route:
++
+[source,terminal]
+----
+$ helm install -n stackrox \
+  --create-namespace stackrox-central-services rhacs/central-services \
+  --set imagePullSecrets.allowNone=true \
+  --set central.exposure.route.enabled=true
+----
+
+* Or, run the following command to install {product-title} and expose it using a load balancer:
++
+[source,terminal]
+----
+$ helm install -n stackrox \
+  --create-namespace stackrox-central-services rhacs/central-services \
+  --set imagePullSecrets.allowNone=true \
+  --set central.exposure.loadBalancer.enabled=true
+----
+
+* Or, run the following command to install {product-title} and expose it using port forward:
++
+[source,terminal]
+----
+$ helm install -n stackrox \
+  --create-namespace stackrox-central-services rhacs/central-services \
+  --set imagePullSecrets.allowNone=true
+----
+
+The output of the installation command includes:
+
+* An automatically generated administrator password.
+* Instructions on storing all the configuration values.
+* Any warnings that Helm generates.

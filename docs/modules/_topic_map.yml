@@ -1,0 +1,197 @@
+# This configuration file dictates the organization of the topic groups and
+# topics on the main page of the doc site for this branch. Each record
+# consists of the following:
+#
+# ---                                  <= Record delimiter
+# Name: Origin of the Species          <= Display name of topic group
+# Dir:  origin_of_the_species          <= Directory name of topic group
+# Topics:
+#   - Name: The Majestic Marmoset      <= Topic name
+#     File: the_majestic_marmoset      <= Topic file under group dir +/-
+#   - Name: The Curious Crocodile      <= Topic 2 name
+#     File: the_curious_crocodile      <= Topic 2 file
+#   - Name: The Numerous Nematodes     <= Sub-topic group name
+#     Dir: the_numerous_nematodes      <= Sub-topic group dir
+#     Topics:
+#       - Name: The Wily Worm          <= Sub-topic name
+#         File: the_wily_worm          <= Sub-topic file under <group dir>/<subtopic dir>
+#       - Name: The Acrobatic Ascarid  <= Sub-topic 2 name
+#         File: the_acrobatic_ascarid  <= Sub-topic 2 file under <group dir>/<subtopic dir>
+#
+# The ordering of the records in this document determines the ordering of the
+# topic groups and topics on the main page.
+
+---
+Name: About
+Dir: welcome
+Distros: openshift-acs
+Topics:
+- Name: Welcome
+  File: index
+---
+Name: Release notes
+Dir: release_notes
+Distros: openshift-acs
+Topics:
+- Name: Red Hat Advanced Cluster Security for Kubernetes 3.63
+  File: 363-release-notes
+- Name: Red Hat Advanced Cluster Security for Kubernetes 3.0.62
+  File: 3062-release-notes
+- Name: Red Hat Advanced Cluster Security for Kubernetes 3.0.61
+  File: 3061-release-notes
+- Name: Red Hat Advanced Cluster Security for Kubernetes 3.0.60
+  File: 3060-release-notes
+- Name: Red Hat Advanced Cluster Security for Kubernetes 3.0.59
+  File: 3059-release-notes
+- Name: Red Hat Advanced Cluster Security for Kubernetes 3.0.58
+  File: 3058-release-notes
+---
+Name: Architecture
+Dir: architecture
+Distros: openshift-acs
+Topics:
+- Name: Product architecture
+  File: index
+---
+Name: Installing
+Dir: installing
+Distros: openshift-acs
+Topics:
+- Name: Installation prerequisites
+  File: prerequisites
+- Name: Installing by using an Operator
+  File: install-ocp-operator
+- Name: Installing using Helm charts
+  Dir: installing_helm
+  Topics:
+  - Name: Installing quickly
+    File: install-helm-quick
+  - Name: Installing with customizations
+    File: install-helm-customization
+- Name: Installing quickly using the roxctl CLI
+  File: install-quick-roxctl
+- Name: Uninstalling Red Hat Advanced Cluster Security for Kubernetes
+  File: uninstall-acs
+---
+Name: Configuring
+Dir: configuration
+Distros: openshift-acs
+Topics:
+- Name: Adding custom certificates
+  File: add-custom-certificates
+- Name: Adding trusted certificate authorities
+  File: add-trusted-ca
+- Name: Reissuing internal certificates
+  File: reissue-internal-certificates
+- Name: Adding security notices
+  File: add-security-notices
+- Name: Enabling offline mode
+  File: enable-offline-mode
+- Name: Enabling alert data retention
+  File: enable-alert-data-retention
+- Name: Exposing the RHACS portal over HTTP
+  File: expose-portal-over-http
+- Name: Configuring automatic upgrades for secured clusters
+  File: configure-automatic-upgrades
+- Name: Configuring a proxy for external network access
+  File: configure-proxy
+- Name: Generating a diagnostic bundle
+  File: generate-diagnostic-bundle
+- Name: Monitoring with Prometheus
+  File: monitor-acs
+- Name: Enabling audit logging
+  File: configure-audit-logging
+---
+Name: Operating
+Dir: operating
+Distros: openshift-acs
+Topics:
+- Name: Viewing the dashboard
+  File: view-dashboard
+- Name: Managing compliance
+  File: manage-compliance
+- Name: Managing vulnerabilities
+  File: manage-vulnerabilities
+- Name: Responding to violations
+  File: respond-to-violations
+- Name: Searching and filtering
+  File: search-filter
+- Name: Managing user access
+  Dir: manage-user-access
+  Topics:
+  - Name: Configuring Okta Identity Cloud as a SAML 2.0 identity provider
+    File: configure-okta-identity-cloud
+  - Name: Configuring Google Workspace as an OIDC identity provider
+    File: configure-google-workspace-identity
+  - Name: Managing RBAC in Red Hat Advanced Cluster Security for Kubernetes 3.63 and newer
+    File: manage-role-based-access-control-3630
+  - Name: Managing RBAC in Red Hat Advanced Cluster Security for Kubernetes 3.0.62 and older
+    File: manage-role-based-access-control-3062
+  - Name: Enabling PKI authentication
+    File: enable-pki-authentication
+- Name: Using the system health dashboard
+  File: use-system-health-dashboard
+---
+Name: Integrating
+Dir: integration
+Distros: openshift-acs
+Topics:
+- Name: Integrating with image registries
+  File: integrate-with-image-registries
+- Name: Integrating with CI systems
+  File: integrate-with-ci-systems
+- Name: Integrating with PagerDuty
+  File: integrate-with-pagerduty
+- Name: Integrating with Slack
+  File: integrate-with-slack
+- Name: Integrating by using generic webhooks
+  File: integrate-using-generic-webhooks
+- Name: Integrating with Sumo Logic
+  File: integrate-with-sumologic
+- Name: Integrating with Google Cloud Storage
+  File: integrate-with-google-cloud-storage
+- Name: Integrating by using the syslog protocol
+  File: integrate-using-syslog-protocol
+- Name: Integrating with Amazon S3
+  File: integrate-with-amazon-s3
+- Name: Integrating with Google Cloud Security Command Center
+  File: integrate-with-google-cloud-scc
+---
+Name: Backup and restore
+Dir: backup_and_restore
+Distros: openshift-acs
+Topics:
+- Name: Backing up Red Hat Advanced Cluster Security for Kubernetes
+  File: backing-up-acs
+- Name: Restoring from a backup
+  File: restore-acs
+---
+Name: Upgrading
+Dir: upgrading
+Distros: openshift-acs
+Topics:
+- Name: Upgrading using Helm charts
+  File: upgrade-helm
+- Name: Upgrading using the roxctl CLI
+  Dir: upgrading_roxctl
+  Topics:
+  - Name: Upgrading from Red Hat Advanced Cluster Security for Kubernetes 3.0.44 or higher
+    File: upgrade-from-44
+  - Name: Upgrading from Red Hat Advanced Cluster Security for Kubernetes 3.0.40 through 3.0.43
+    File: upgrade-from-40-43
+---
+Name: roxctl CLI
+Dir: cli
+Distros: openshift-acs
+Topics:
+- Name: Getting started with the roxctl CLI
+  File: getting-started-cli
+---
+Name: Support
+Dir: support
+Distros: openshift-acs
+Topics:
+- Name: Getting support for Red Hat Advanced Cluster Security for Kubernetes
+  File: getting-support
+- Name: Getting support for the StackRox Kubernetes Security Platform
+  File: getting-support-stackrox
