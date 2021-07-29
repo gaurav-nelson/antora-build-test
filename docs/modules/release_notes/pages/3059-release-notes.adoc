@@ -1,6 +1,6 @@
 [id="3059-release-notes"]
 = Red Hat Advanced Cluster Security for Kubernetes 3.0.59
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: 3059-release-notes
 
 toc::[]
