@@ -1,3 +1,2 @@
 * Release Notes
 ** xref:363-release-notes.adoc[Release notes for RHACS 63.3]
-

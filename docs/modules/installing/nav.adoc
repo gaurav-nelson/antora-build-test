@@ -1,0 +1,4 @@
+* xref:install-ocp-operator.adoc[Install by using OpenShift Operator]
+* xref:install-quick-roxctl.adoc[Install by using OpenShift CLI]
+* Install by using Helm charts
+** xref:./installing-helm/install-helm-quick.adoc[Installing quickly with Helm]
