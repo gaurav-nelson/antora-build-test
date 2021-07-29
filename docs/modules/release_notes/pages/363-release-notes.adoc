@@ -1,6 +1,6 @@
 [id="363-release-notes"]
 = Red Hat Advanced Cluster Security for Kubernetes 3.63
-include::./modules/modules/common-attributes.adoc[]
+include::./../docs/modules/modules/common-attributes.adoc[]
 :context: 363-release-notes
 
 toc::[]
