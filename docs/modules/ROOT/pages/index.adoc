@@ -1,7 +1,7 @@
 :context: welcome-index
 [id="welcome-index"]
 = {product-title} {product-version} Documentation
-include::modules/common-attributes.adoc[]
+include::xmodules/common-attributes.adoc[]
 
 [.lead]
 Welcome to the official {product-title} documentation, where you can learn about {product-title} and start exploring its features.
