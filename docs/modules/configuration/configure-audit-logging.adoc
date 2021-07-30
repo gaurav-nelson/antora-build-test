@@ -1,6 +1,6 @@
 [id="configure-audit-logging"]
 = Configuring audit logging
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: configure-audit-logging
 
 toc::[]
@@ -22,6 +22,6 @@ You must enable audit logging manually.
 Currently there is no message delivery guarantee for audit log messages.
 ====
 
-include::modules/enable-audit-log.adoc[leveloffset=+1]
+include::ROOT:partial$enable-audit-log.adoc[leveloffset=+1]
 
-include::modules/sample-audit-log-message.adoc[leveloffset=+1]
+include::ROOT:partial$sample-audit-log-message.adoc[leveloffset=+1]

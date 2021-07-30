@@ -1,6 +1,6 @@
 [id="acs-install-helm-quick"]
 = Installing quickly using Helm charts
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: acs-install-helm-quick
 
 toc::[]
@@ -13,11 +13,11 @@ Before you install:
 * Understand xref:../../architecture/index.adoc#acs-architecture_acs-architecture[{product-title} architecture].
 * Review the xref:../prerequisites.adoc#acs-general-requirements_acs-prerequisites[prerequisites for installing {product-title}].
 
-include::modules/adding-helm-repository.adoc[leveloffset=+1]
+include::ROOT:partial$adding-helm-repository.adoc[leveloffset=+1]
 
-include::modules/acs-quick-install-using-helm.adoc[leveloffset=+1]
+include::ROOT:partial$acs-quick-install-using-helm.adoc[leveloffset=+1]
 
-include::modules/verify-acs-installation.adoc[leveloffset=+1]
+include::ROOT:partial$verify-acs-installation.adoc[leveloffset=+1]
 
 [role="_additional-resources"]
 == Additional resources

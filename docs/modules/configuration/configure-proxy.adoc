@@ -1,6 +1,6 @@
 [id="configure-proxy"]
 = Configuring a proxy for external network access
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: configure-proxy
 
 toc::[]
@@ -18,6 +18,6 @@ When you use a proxy with {product-title}:
 ** The Sensor then forwards this request to Central.
 ** Central uses the proxy to locate the module or probe at `\https://collector-modules.stackrox.io`.
 
-include::modules/configure-proxy-on-an-existing-deployment.adoc[leveloffset=+1]
+include::ROOT:partial$configure-proxy-on-an-existing-deployment.adoc[leveloffset=+1]
 
-include::modules/configure-proxy-during-installation.adoc[leveloffset=+1]
+include::ROOT:partial$configure-proxy-during-installation.adoc[leveloffset=+1]

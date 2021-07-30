@@ -1,6 +1,6 @@
 [id="enable-offline-mode"]
 = Enabling offline mode
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: enable-offline-mode
 
 toc::[]
@@ -30,25 +30,25 @@ You can only enable offline mode during the installation, and not during an upgr
 
 You can download {product-title} images by using an offline bundle, or you can download the images directly.
 
-include::modules/download-images-using-offline-bundle.adoc[leveloffset=+2]
+include::ROOT:partial$download-images-using-offline-bundle.adoc[leveloffset=+2]
 
-include::modules/download-images-directly.adoc[leveloffset=+2]
+include::ROOT:partial$download-images-directly.adoc[leveloffset=+2]
 
-include::modules/retag-images.adoc[leveloffset=+3]
+include::ROOT:partial$retag-images.adoc[leveloffset=+3]
 
 [id="enable-offline-mode-during-installation"]
 == Enabling offline mode during installation
 
 You can enable offline mode during the installation of {product-title}.
 
-include::modules/enable-offline-mode-helm.adoc[leveloffset=+2]
+include::ROOT:partial$enable-offline-mode-helm.adoc[leveloffset=+2]
 
 [role="_additional-resources"]
 .Additional resources
 * xref:../installing/installing_helm/install-helm-customization.adoc#configure-central-services-helm-chart[Configuring the central-services Helm chart]
 * xref:../installing/installing_helm/install-helm-customization.adoc#configure-secured-cluster-services-helm-chart[Configuring the secured-cluster-services Helm chart]
 
-include::modules/enable-offline-mode-roxctl.adoc[leveloffset=+2]
+include::ROOT:partial$enable-offline-mode-roxctl.adoc[leveloffset=+2]
 
 
 [id="update-scanner-definitions-in-offline-mode"]
@@ -68,7 +68,7 @@ To update the definitions in offline mode:
 . Restart Scanner.
 
 //Download the definitions
-include::modules/download-scanner-definitions.adoc[leveloffset=+2]
+include::ROOT:partial$download-scanner-definitions.adoc[leveloffset=+2]
 
 [id="upload-definitions-to-central"]
 === Uploading definitions to Central
@@ -76,20 +76,20 @@ include::modules/download-scanner-definitions.adoc[leveloffset=+2]
 To upload Scanner definitions to Central, you can either use an API token or your administrator password. Red Hat recommends using an authentication token in a production environment because each token is assigned specific access control permissions.
 
 //Upload the definitions to Central (API Token)
-include::modules/upload-definitions-to-central-api-token.adoc[leveloffset=+3]
+include::ROOT:partial$upload-definitions-to-central-api-token.adoc[leveloffset=+3]
 
 [role="_additional-resources"]
 .Additional resources
 * xref:../cli/getting-started-cli.html#cli-authentication_cli-getting-started[Authenticating using the roxctl CLI]
 
 //Upload the definitions to Central (admin password)
-include::modules/upload-definitions-to-central-admin-pass.adoc[leveloffset=+3]
+include::ROOT:partial$upload-definitions-to-central-admin-pass.adoc[leveloffset=+3]
 
 //Restart Scanner
-include::modules/restart-scanner-container.adoc[leveloffset=+2]
+include::ROOT:partial$restart-scanner-container.adoc[leveloffset=+2]
 
-include::modules/update-kernel-support-packages.adoc[leveloffset=+1]
+include::ROOT:partial$update-kernel-support-packages.adoc[leveloffset=+1]
 
-include::modules/download-kernel-support-package.adoc[leveloffset=+2]
+include::ROOT:partial$download-kernel-support-package.adoc[leveloffset=+2]
 
-include::modules/upload-kernel-support-package-to-central.adoc[leveloffset=+2]
+include::ROOT:partial$upload-kernel-support-package-to-central.adoc[leveloffset=+2]

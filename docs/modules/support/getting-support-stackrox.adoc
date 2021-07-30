@@ -1,6 +1,6 @@
 [id="getting-support-stackrox"]
 = Getting support for the StackRox Kubernetes Security Platform
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: getting-support-stackrox
 
 toc::[]
@@ -16,6 +16,6 @@ This topic provides information about the technical support for the StackRox Kub
 ** link:https://access.redhat.com/node/5822721[{product-title} Support Policy]
 ====
 
-include::modules/stackrox-kubernetes-security-platform-support.adoc[leveloffset=+1]
+include::ROOT:partial$stackrox-kubernetes-security-platform-support.adoc[leveloffset=+1]
 
-include::modules/support-on-various-platforms.adoc[leveloffset=+1]
+include::ROOT:partial$support-on-various-platforms.adoc[leveloffset=+1]

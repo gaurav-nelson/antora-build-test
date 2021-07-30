@@ -1,6 +1,6 @@
 [id="integrate-with-image-registries"]
 = Integrating with image registries
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: integrate-with-image-registries
 
 toc::[]
@@ -38,27 +38,27 @@ You can integrate {product-title} with several major image registries, including
 * link:https://www.tenable.com/products/tenable-io/container-security[Tenable.io]
 * Any other registry that uses the https://docs.docker.com/registry/spec/api/[Docker Registry HTTP API]
 
-include::modules/automatic-configuration-image-registry.adoc[leveloffset=+1]
+include::ROOT:partial$automatic-configuration-image-registry.adoc[leveloffset=+1]
 
 [id="manual-configuration-image-registry"]
 == Manually configuring image registries
 
 If you are using GCR or ECR with node IAM, you must manually create image registry integrations.
 
-include::modules/manual-configuration-image-registry-ecr.adoc[leveloffset=+2]
+include::ROOT:partial$manual-configuration-image-registry-ecr.adoc[leveloffset=+2]
 
-include::modules/manual-configuration-image-registry-gcr.adoc[leveloffset=+2]
+include::ROOT:partial$manual-configuration-image-registry-gcr.adoc[leveloffset=+2]
 
-include::modules/manual-configuration-image-registry-gar.adoc[leveloffset=+2]
+include::ROOT:partial$manual-configuration-image-registry-gar.adoc[leveloffset=+2]
 
-include::modules/manual-configuration-image-registry-acr.adoc[leveloffset=+2]
+include::ROOT:partial$manual-configuration-image-registry-acr.adoc[leveloffset=+2]
 
-include::modules/manual-configuration-image-registry-jfrog.adoc[leveloffset=+2]
+include::ROOT:partial$manual-configuration-image-registry-jfrog.adoc[leveloffset=+2]
 
-include::modules/manual-configuration-image-registry-dtr.adoc[leveloffset=+2]
+include::ROOT:partial$manual-configuration-image-registry-dtr.adoc[leveloffset=+2]
 
-include::modules/manual-configuration-image-registry-qcr.adoc[leveloffset=+2]
+include::ROOT:partial$manual-configuration-image-registry-qcr.adoc[leveloffset=+2]
 
-include::modules/manual-configuration-image-registry-ibm.adoc[leveloffset=+2]
+include::ROOT:partial$manual-configuration-image-registry-ibm.adoc[leveloffset=+2]
 
-include::modules/manual-configuration-image-registry-redhat.adoc[leveloffset=+2]
+include::ROOT:partial$manual-configuration-image-registry-redhat.adoc[leveloffset=+2]

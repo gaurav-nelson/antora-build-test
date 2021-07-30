@@ -1,6 +1,6 @@
 [id="integrate-with-pagerduty"]
 = Integrating with PagerDuty
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: integrate-with-pagerduty
 
 toc::[]
@@ -14,9 +14,9 @@ The following steps represent a high-level workflow for integrating {product-tit
 . Use the integration key to set up notifications in {product-title}.
 . Identify the policies you want to send notifications for, and update the notification settings for those policies.
 
-include::modules/configure-pagerduty.adoc[leveloffset=+1]
+include::ROOT:partial$configure-pagerduty.adoc[leveloffset=+1]
 
-include::modules/pagerduty-configuring-acs.adoc[leveloffset=+1]
+include::ROOT:partial$pagerduty-configuring-acs.adoc[leveloffset=+1]
 
 :toolname: PagerDuty
-include::modules/configure-policy-notifications.adoc[leveloffset=+1]
+include::ROOT:partial$configure-policy-notifications.adoc[leveloffset=+1]

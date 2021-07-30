@@ -1,6 +1,6 @@
 [id="expose-portal-over-http"]
 = Exposing the RHACS portal over HTTP
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: expose-portal-over-http
 
 toc::[]
@@ -44,8 +44,8 @@ You can omit this, or use `localhost` or `127.0.0.1` if you need an HTTP endpoin
 *** `http@8080,grpc@8081`
 *** `8080, grpc@:8081, http@0.0.0.0:8082`
 
-include::modules/expose-portal-http-during-installation.adoc[leveloffset=+1]
+include::ROOT:partial$expose-portal-http-during-installation.adoc[leveloffset=+1]
 
-include::modules/expose-portal-http-existing-deployment.adoc[leveloffset=+1]
+include::ROOT:partial$expose-portal-http-existing-deployment.adoc[leveloffset=+1]
 
 // TODO: Add link to Configure endpoints topic

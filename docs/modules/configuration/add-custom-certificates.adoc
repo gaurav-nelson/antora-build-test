@@ -1,6 +1,6 @@
 [id="add-custom-cert"]
 = Adding custom certificates
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: add-custom-cert
 
 toc::[]
@@ -14,13 +14,13 @@ Learn how to use a custom TLS certificate with {product-title}. After you set up
 You can apply a security certificate during the installation or on an existing {product-title} deployment.
 
 //Prerequisites
-include::modules/custom-cert-prerequisites.adoc[leveloffset=+2]
+include::ROOT:partial$custom-cert-prerequisites.adoc[leveloffset=+2]
 
 //During a new installation
-include::modules/custom-cert-new-install.adoc[leveloffset=+2]
+include::ROOT:partial$custom-cert-new-install.adoc[leveloffset=+2]
 
 //On an existing installation
-include::modules/custom-cert-existing.adoc[leveloffset=+2]
+include::ROOT:partial$custom-cert-existing.adoc[leveloffset=+2]
 
 [id="configure-sensor-to-trust-cert"]
 == Configuring Sensor to trust custom certificates
@@ -34,15 +34,15 @@ Usually, it is an `x509 validation` related error.
 You do not need to configure the Sensor to trust your custom certificate if you are using a globally trusted certificate.
 ====
 //Downloading the Sensor bundle
-include::modules/download-sensor-bundle.adoc[leveloffset=+2]
+include::ROOT:partial$download-sensor-bundle.adoc[leveloffset=+2]
 
 //When deploying a new Sensor
-include::modules/trust-cert-new-sensor.adoc[leveloffset=+2]
+include::ROOT:partial$trust-cert-new-sensor.adoc[leveloffset=+2]
 
 //On an existing Sensor
-include::modules/trust-cert-existing-sensor.adoc[leveloffset=+2]
+include::ROOT:partial$trust-cert-existing-sensor.adoc[leveloffset=+2]
 
 If you added the certificates to an existing sensor, you must restart the Sensor container.
 
 //Restart Sensor
-include::modules/restart-sensor-container.adoc[leveloffset=+3]
+include::ROOT:partial$restart-sensor-container.adoc[leveloffset=+3]

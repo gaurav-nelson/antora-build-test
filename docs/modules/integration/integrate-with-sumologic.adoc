@@ -1,6 +1,6 @@
 [id="integrate-with-sumologic"]
 = Integrating with Sumo Logic
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: integrate-with-sumologic
 
 toc::[]
@@ -14,11 +14,11 @@ The following steps represent a high-level workflow for integrating {product-tit
 . Use the HTTP URL to integrate Sumo Logic with {product-title}.
 . Identify the policies you want to send notifications for, and update the notification settings for those policies.
 
-include::modules/configure-sumologic.adoc[leveloffset=+1]
+include::ROOT:partial$configure-sumologic.adoc[leveloffset=+1]
 
-include::modules/sumologic-configuring-acs.adoc[leveloffset=+1]
+include::ROOT:partial$sumologic-configuring-acs.adoc[leveloffset=+1]
 
 :toolname: Sumo Logic
-include::modules/configure-policy-notifications.adoc[leveloffset=+1]
+include::ROOT:partial$configure-policy-notifications.adoc[leveloffset=+1]
 
-include::modules/view-alerts-in-sumo-logic.adoc[leveloffset=+1]
+include::ROOT:partial$view-alerts-in-sumo-logic.adoc[leveloffset=+1]

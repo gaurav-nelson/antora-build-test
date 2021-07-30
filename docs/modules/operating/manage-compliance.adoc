@@ -1,6 +1,6 @@
 [id="manage-compliance"]
 = Managing compliance
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: manage-compliance
 
 toc::[]
@@ -23,9 +23,9 @@ By scanning your environment based on these standards you can:
 
 //TODO: See xref:#benchmark-versions/[Benchmark version] for detailed information about the benchmark versions that {product-title} supports.
 
-include::modules/compliance-dashboard.adoc[leveloffset=+1]
+include::ROOT:partial$compliance-dashboard.adoc[leveloffset=+1]
 
-include::modules/run-compliance-scan.adoc[leveloffset=+1]
+include::ROOT:partial$run-compliance-scan.adoc[leveloffset=+1]
 
 [id="view-compliance-scan-results"]
 == Viewing compliance scan results
@@ -59,18 +59,18 @@ By clicking these shortcuts you can view the compliance snapshot and generate re
 | The compliance check failed due to a technical issue.
 |===
 
-include::modules/view-compliance-status-for-cluster.adoc[leveloffset=+2]
+include::ROOT:partial$view-compliance-status-for-cluster.adoc[leveloffset=+2]
 
-include::modules/view-compliance-status-for-namespaces.adoc[leveloffset=+2]
+include::ROOT:partial$view-compliance-status-for-namespaces.adoc[leveloffset=+2]
 
-include::modules/view-compliance-status-for-standard.adoc[leveloffset=+2]
+include::ROOT:partial$view-compliance-status-for-standard.adoc[leveloffset=+2]
 
-include::modules/view-compliance-status-for-control.adoc[leveloffset=+2]
+include::ROOT:partial$view-compliance-status-for-control.adoc[leveloffset=+2]
 
-include::modules/filter-compliance-status.adoc[leveloffset=+1]
+include::ROOT:partial$filter-compliance-status.adoc[leveloffset=+1]
 
-include::modules/generate-compliance-reports.adoc[leveloffset=+1]
+include::ROOT:partial$generate-compliance-reports.adoc[leveloffset=+1]
 
-include::modules/compliance-evidence-reports.adoc[leveloffset=+2]
+include::ROOT:partial$compliance-evidence-reports.adoc[leveloffset=+2]
 
-include::modules/supported-benchmark-versions.adoc[leveloffset=+1]
+include::ROOT:partial$supported-benchmark-versions.adoc[leveloffset=+1]

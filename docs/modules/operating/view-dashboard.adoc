@@ -1,6 +1,6 @@
 [id="view-dashboard"]
 = Viewing the dashboard
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: view-dashboard
 
 toc::[]

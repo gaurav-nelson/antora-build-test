@@ -1,6 +1,6 @@
 [id="backing-up-acs"]
 = Backing up Red Hat Advanced Cluster Security for Kubernetes
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: backing-up-acs
 
 toc::[]
@@ -25,6 +25,6 @@ If you are using {product-title} 3.0.53 or older, the backup does not include ce
 
 You can use the `roxctl` CLI to take the backups by using the `backup` command. You require either an API token or your administrator password to run this command.
 
-include::modules/on-demand-backups-roxctl-api.adoc[leveloffset=+2]
+include::ROOT:partial$on-demand-backups-roxctl-api.adoc[leveloffset=+2]
 
-include::modules/on-demand-backups-roxctl-admin-pass.adoc[leveloffset=+2]
+include::ROOT:partial$on-demand-backups-roxctl-admin-pass.adoc[leveloffset=+2]

@@ -1,6 +1,6 @@
 [id="configure-okta-identity-cloud"]
 = Configuring Okta Identity Cloud as a SAML 2.0 identity provider
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: configure-okta-identity-cloud
 
 toc::[]
@@ -8,6 +8,6 @@ toc::[]
 [role="_abstract"]
 You can use Okta as a single sign-on (SSO) provider for {product-title} (RHACS).
 
-include::modules/create-an-okta-app.adoc[leveloffset=+1]
+include::ROOT:partial$create-an-okta-app.adoc[leveloffset=+1]
 
-include::modules/configure-saml-identity-provider.adoc[leveloffset=+1]
+include::ROOT:partial$configure-saml-identity-provider.adoc[leveloffset=+1]

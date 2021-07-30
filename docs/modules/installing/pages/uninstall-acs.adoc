@@ -1,6 +1,6 @@
 [id="uninstall-acs"]
 = Uninstalling {product-title}
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: uninstall-acs
 
 toc::[]
@@ -16,8 +16,8 @@ When you install {product-title}, it creates:
 
 Uninstalling {product-title} involves deleting all these items.
 
-include::modules/delete-acs-namespace.adoc[leveloffset=+1]
+include::ROOT:partial$delete-acs-namespace.adoc[leveloffset=+1]
 
-include::modules/delete-acs-global-resources.adoc[leveloffset=+1]
+include::ROOT:partial$delete-acs-global-resources.adoc[leveloffset=+1]
 
-include::modules/delete-acs-label-annotation.adoc[leveloffset=+1]
+include::ROOT:partial$delete-acs-label-annotation.adoc[leveloffset=+1]

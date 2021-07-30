@@ -1,6 +1,6 @@
 [id="integrate-using-generic-webhooks"]
 = Integrating by using generic webhooks
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: integrate-using-generic-webhooks
 
 toc::[]
@@ -37,7 +37,7 @@ To forward alerts from {product-title} to any webhook receiver:
 . Use the webhook URL to set up notifications in {product-title}.
 . Identify the policies you want to send notifications for, and update the notification settings for those policies.
 
-include::modules/webhook-configuring-acs.adoc[leveloffset=+1]
+include::ROOT:partial$webhook-configuring-acs.adoc[leveloffset=+1]
 
 :toolname: webhook
-include::modules/configure-policy-notifications.adoc[leveloffset=+1]
+include::ROOT:partial$configure-policy-notifications.adoc[leveloffset=+1]

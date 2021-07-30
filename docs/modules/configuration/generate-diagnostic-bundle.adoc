@@ -1,6 +1,6 @@
 [id="generate-diagnostic-bundle"]
 = Generating a diagnostic bundle
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: generate-diagnostic-bundle
 
 toc::[]
@@ -17,8 +17,8 @@ The diagnostic bundle is unencrypted, and typically, the size of the bundle is b
 Always use an encrypted channel to transfer this data back to Red Hat.
 ====
 
-include::modules/diagnostic-bundle-data.adoc[leveloffset=+1]
+include::ROOT:partial$diagnostic-bundle-data.adoc[leveloffset=+1]
 
-include::modules/generate-diagnostic-bundle-using-acs-portal.adoc[leveloffset=+1]
+include::ROOT:partial$generate-diagnostic-bundle-using-acs-portal.adoc[leveloffset=+1]
 
-include::modules/generate-diagnostic-bundle-using-roxctl-cli.adoc[leveloffset=+1]
+include::ROOT:partial$generate-diagnostic-bundle-using-roxctl-cli.adoc[leveloffset=+1]

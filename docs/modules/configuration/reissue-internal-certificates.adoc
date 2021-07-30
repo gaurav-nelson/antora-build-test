@@ -1,6 +1,6 @@
 [id="reissue-internal-certificates"]
 = Reissuing internal certificates
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: reissue-internal-certificates
 
 toc::[]
@@ -13,16 +13,16 @@ You can view the certificate expiry dates in the *Platform Configuration* -> *Cl
 //Add link to role based permissions and resources
 
 //reissue internal certificates for Central
-include::modules/reissue-internal-certificates-central.adoc[leveloffset=+1]
+include::ROOT:partial$reissue-internal-certificates-central.adoc[leveloffset=+1]
 
 //Restart Central
-include::modules/restart-central-container.adoc[leveloffset=+2]
+include::ROOT:partial$restart-central-container.adoc[leveloffset=+2]
 
 //reissue internal certificates for Scanner
-include::modules/reissue-internal-certificates-scanner.adoc[leveloffset=+1]
+include::ROOT:partial$reissue-internal-certificates-scanner.adoc[leveloffset=+1]
 
 //Restart Scanner
-include::modules/restart-scanner-container.adoc[leveloffset=+2]
+include::ROOT:partial$restart-scanner-container.adoc[leveloffset=+2]
 
 [id="reissue-internal-certificates-secured-clusters"]
 == Reissuing internal certificates for Sensor, Collector, and Admission Controller
@@ -35,7 +35,7 @@ To replace the certificates, you can either:
 //Add link to automatic upgrades
 
 //reissue internal certificates for secured clusters by downloading yaml
-include::modules/reissue-internal-certificates-secured-clusters-download-yaml.adoc[leveloffset=+2]
+include::ROOT:partial$reissue-internal-certificates-secured-clusters-download-yaml.adoc[leveloffset=+2]
 
 //reissue internal certificates for secured clusters by using automatic upgrades
-include::modules/reissue-internal-certificates-secured-clusters-automatic-upgrades.adoc[leveloffset=+2]
+include::ROOT:partial$reissue-internal-certificates-secured-clusters-automatic-upgrades.adoc[leveloffset=+2]

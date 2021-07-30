@@ -1,6 +1,6 @@
 [id="add-trusted-ca"]
 = Adding trusted certificate authorities
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: add-trusted-ca
 
 toc::[]
@@ -23,7 +23,7 @@ You can add additional CAs during the installation or on an existing deployment.
 You must first configure your trusted CAs in the cluster where you have deployed Central and then propagate the changes to Scanner and Sensor.
 ====
 
-include::modules/configure-additional-cas.adoc[leveloffset=+1]
+include::ROOT:partial$configure-additional-cas.adoc[leveloffset=+1]
 
 == Propagating changes
 
@@ -34,10 +34,10 @@ After you configure trusted CAs, you must make {product-title} services trust th
 //TODO: Add link to integrating with image registries
 
 //Restart Central
-include::modules/restart-central-container.adoc[leveloffset=+2]
+include::ROOT:partial$restart-central-container.adoc[leveloffset=+2]
 
 //Restart Scanner
-include::modules/restart-scanner-container.adoc[leveloffset=+2]
+include::ROOT:partial$restart-scanner-container.adoc[leveloffset=+2]
 
 [IMPORTANT]
 ====

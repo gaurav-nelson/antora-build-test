@@ -1,6 +1,6 @@
 [id="install-ocp-operator"]
 = Installing by using an Operator
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: install-ocp-operator
 
 toc::[]
@@ -31,13 +31,13 @@ The following steps represent a high-level workflow for installing {product-titl
 . Install the {product-title} Operator in all clusters that you want to monitor.
 . Configure and deploy the `SecuredCluster` custom resource in all clusters that you want to monitor.
 
-include::modules/install-acs-operator.adoc[leveloffset=+1]
+include::ROOT:partial$install-acs-operator.adoc[leveloffset=+1]
 
-include::modules/install-central-operator.adoc[leveloffset=+1]
+include::ROOT:partial$install-central-operator.adoc[leveloffset=+1]
 
-include::modules/verify-central-install-operator.adoc[leveloffset=+1]
+include::ROOT:partial$verify-central-install-operator.adoc[leveloffset=+1]
 
-include::modules/central-configuration-options-operator.adoc[leveloffset=+1]
+include::ROOT:partial$central-configuration-options-operator.adoc[leveloffset=+1]
 
 [id="generate-init-bundle"]
 == Generating an init bundle
@@ -47,19 +47,19 @@ To create a secured cluster, you must create an init bundle. The secured cluster
 You can create an init bundle by using the the roxctl CLI or from the RHACS portal.
 
 // Generating init bundle portal
-include::modules/portal-generate-init-bundle.adoc[leveloffset=+2]
+include::ROOT:partial$portal-generate-init-bundle.adoc[leveloffset=+2]
 
 // Generating init bundle CLI
-include::modules/roxctl-generate-init-bundle.adoc[leveloffset=+2]
+include::ROOT:partial$roxctl-generate-init-bundle.adoc[leveloffset=+2]
 
 [role="_additional-resources"]
 .Additional resources
 * xref:../cli/getting-started-cli.adoc#installing-roxctl-cli[Installing the roxctl CLI]
 
-include::modules/create-resource-init-bundle.adoc[leveloffset=+1]
+include::ROOT:partial$create-resource-init-bundle.adoc[leveloffset=+1]
 
-include::modules/install-secured-cluster-operator.adoc[leveloffset=+1]
+include::ROOT:partial$install-secured-cluster-operator.adoc[leveloffset=+1]
 
-include::modules/secured-cluster-configuration-options-operator.adoc[leveloffset=+1]
+include::ROOT:partial$secured-cluster-configuration-options-operator.adoc[leveloffset=+1]
 
-include::modules/verify-acs-installation.adoc[leveloffset=+1]
+include::ROOT:partial$verify-acs-installation.adoc[leveloffset=+1]

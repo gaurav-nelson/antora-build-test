@@ -1,6 +1,6 @@
 [id="integrate-with-google-cloud-storage"]
 = Integrating with Google Cloud Storage
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: integrate-with-google-cloud-storage
 
 toc::[]
@@ -18,9 +18,9 @@ Make sure that backups are stored securely.
 If you are using {product-title} version 3.0.53 or older, the backup does not include certificates.
 ====
 
-include::modules/google-cloud-storage-configuring-acs.adoc[leveloffset=+1]
+include::ROOT:partial$google-cloud-storage-configuring-acs.adoc[leveloffset=+1]
 
-include::modules/perform-on-demand-backups-google-cloud-storage.adoc[leveloffset=+2]
+include::ROOT:partial$perform-on-demand-backups-google-cloud-storage.adoc[leveloffset=+2]
 
 [role="_additional-resources"]
 .Additional resources

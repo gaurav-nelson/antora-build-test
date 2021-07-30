@@ -1,6 +1,6 @@
 [id="upgrade-from-44"]
 = Upgrading from {product-title} 3.0.44 or higher
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: upgrade-from-44
 
 toc::[]
@@ -14,7 +14,7 @@ To upgrade {product-title} to the latest version, you must perform the following
 * Upgrade the Central cluster
 * Upgrade all secured clusters
 
-include::modules/back-up-central-database.adoc[leveloffset=+1]
+include::ROOT:partial$back-up-central-database.adoc[leveloffset=+1]
 
 [role="_additional-resources"]
 .Additional resources
@@ -25,20 +25,20 @@ include::modules/back-up-central-database.adoc[leveloffset=+1]
 
 After you have backed up Central database, the next step is to upgrade Central and Scanner.
 
-include::modules/upgrade-central.adoc[leveloffset=+2]
+include::ROOT:partial$upgrade-central.adoc[leveloffset=+2]
 
 [id="upgrade-roxctl-cli"]
 === Upgrading the `roxctl` CLI
 
 To upgrade the `roxctl` CLI to the latest version, download and install the latest version.
 
-include::modules/install-roxctl-cli-linux.adoc[leveloffset=+3]
-include::modules/install-roxctl-cli-macos.adoc[leveloffset=+3]
-include::modules/install-roxctl-cli-windows.adoc[leveloffset=+3]
+include::ROOT:partial$install-roxctl-cli-linux.adoc[leveloffset=+3]
+include::ROOT:partial$install-roxctl-cli-macos.adoc[leveloffset=+3]
+include::ROOT:partial$install-roxctl-cli-windows.adoc[leveloffset=+3]
 
-include::modules/upgrade-scanner.adoc[leveloffset=+2]
+include::ROOT:partial$upgrade-scanner.adoc[leveloffset=+2]
 
-include::modules/verify-central-cluster-upgrade.adoc[leveloffset=+2]
+include::ROOT:partial$verify-central-cluster-upgrade.adoc[leveloffset=+2]
 
 [id="upgrade-secured-clusters"]
 == Upgrading all secured clusters
@@ -55,23 +55,23 @@ After upgrading Central services, you must upgrade all secured clusters.
 
 To complete manual upgrades of each secured cluster running Sensor, Collector, and Admission Controller, follow the instructions in this section.
 
-include::modules/update-admission-controller.adoc[leveloffset=+2]
+include::ROOT:partial$update-admission-controller.adoc[leveloffset=+2]
 
-include::modules/update-openshift-security-context-constraints.adoc[leveloffset=+2]
+include::ROOT:partial$update-openshift-security-context-constraints.adoc[leveloffset=+2]
 
-include::modules/update-other-images.adoc[leveloffset=+2]
+include::ROOT:partial$update-other-images.adoc[leveloffset=+2]
 
-include::modules/verify-secured-cluster-upgrade.adoc[leveloffset=+2]
+include::ROOT:partial$verify-secured-cluster-upgrade.adoc[leveloffset=+2]
 
 [id="rollback-central"]
 == Rolling back Central
 
 You can roll back to a previous version of Central if the upgrade to a new version is unsuccessful.
 
-include::modules/rollback-central-normal.adoc[leveloffset=+2]
+include::ROOT:partial$rollback-central-normal.adoc[leveloffset=+2]
 
-include::modules/rollback-central-forced.adoc[leveloffset=+2]
+include::ROOT:partial$rollback-central-forced.adoc[leveloffset=+2]
 
-include::modules/verify-last-check-in-time.adoc[leveloffset=+1]
+include::ROOT:partial$verify-last-check-in-time.adoc[leveloffset=+1]
 
-include::modules/revoke-the-api-token.adoc[leveloffset=+1]
+include::ROOT:partial$revoke-the-api-token.adoc[leveloffset=+1]

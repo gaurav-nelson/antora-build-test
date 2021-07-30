@@ -1,6 +1,6 @@
 [id="managing-vulnerabilities"]
 = Managing vulnerabilities
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: acs-operating-manage-vulnerabilities
 
 toc::[]
@@ -12,19 +12,19 @@ It involves identifying, classifying, reporting, prioritizing, remediating, and 
 
 {product-title} enables you to identify and prioritize vulnerabilities for quick remediation.
 
-include::modules/vulnerability-management-view.adoc[leveloffset=+1]
+include::ROOT:partial$vulnerability-management-view.adoc[leveloffset=+1]
 
-include::modules/navigate-vulnerability-management-view.adoc[leveloffset=+2]
+include::ROOT:partial$navigate-vulnerability-management-view.adoc[leveloffset=+2]
 
-include::modules/vulnerability-management-other-views.adoc[leveloffset=+2]
+include::ROOT:partial$vulnerability-management-other-views.adoc[leveloffset=+2]
 
-include::modules/identify-top-risky-objects.adoc[leveloffset=+1]
+include::ROOT:partial$identify-top-risky-objects.adoc[leveloffset=+1]
 
-include::modules/top-risky-images-components.adoc[leveloffset=+2]
+include::ROOT:partial$top-risky-images-components.adoc[leveloffset=+2]
 
-include::modules/view-dockerfile-for-image.adoc[leveloffset=+1]
+include::ROOT:partial$view-dockerfile-for-image.adoc[leveloffset=+1]
 
-include::modules/view-freq-violated-policies.adoc[leveloffset=+1]
+include::ROOT:partial$view-freq-violated-policies.adoc[leveloffset=+1]
 
 [id="using-comments-and-tags"]
 == Using comments and tags
@@ -32,19 +32,19 @@ include::modules/view-freq-violated-policies.adoc[leveloffset=+1]
 You can use tags and comments to specify what is happening with violations to keep your team up to date.
 Comments allow you to add text notes to violations and tags allow you to categorize your violations.
 
-include::modules/adding-comments.adoc[leveloffset=+2]
+include::ROOT:partial$adding-comments.adoc[leveloffset=+2]
 
-include::modules/adding-tags.adoc[leveloffset=+2]
+include::ROOT:partial$adding-tags.adoc[leveloffset=+2]
 
-include::modules/view-recently-detected-vulnerabilities.adoc[leveloffset=+1]
+include::ROOT:partial$view-recently-detected-vulnerabilities.adoc[leveloffset=+1]
 
-include::modules/view-most-common-vulnerabilities.adoc[leveloffset=+1]
+include::ROOT:partial$view-most-common-vulnerabilities.adoc[leveloffset=+1]
 
-include::modules/identify-deployments-with-most-severe-policy-violations.adoc[leveloffset=+1]
+include::ROOT:partial$identify-deployments-with-most-severe-policy-violations.adoc[leveloffset=+1]
 
-include::modules/find-clusters-with-most-kubernetes-and-istio-vulnerabilities.adoc[leveloffset=+1]
+include::ROOT:partial$find-clusters-with-most-kubernetes-and-istio-vulnerabilities.adoc[leveloffset=+1]
 
-include::modules/create-policies-to-block-specific-cves.adoc[leveloffset=+1]
+include::ROOT:partial$create-policies-to-block-specific-cves.adoc[leveloffset=+1]
 
 [id="snooze-and-unsnooze-cves"]
 == Snoozing and unsnoozing CVEs
@@ -57,29 +57,29 @@ When you snooze a CVE, {product-title} stops showing that CVE in widgets and oth
 If the snoozed CVE is part of a policy and if all the CVEs in that policy are snoozed, the policy does not generate a violation.
 When you unsnooze or the specified time lapses,  the CVEs start showing up again as usual, and the policy violations resume.
 
-include::modules/snooze-cves.adoc[leveloffset=+2]
+include::ROOT:partial$snooze-cves.adoc[leveloffset=+2]
 
-include::modules/view-snoozed-cves.adoc[leveloffset=+2]
+include::ROOT:partial$view-snoozed-cves.adoc[leveloffset=+2]
 
-include::modules/unsnooze-cves.adoc[leveloffset=+2]
+include::ROOT:partial$unsnooze-cves.adoc[leveloffset=+2]
 
-include::modules/identify-vulnerabilities-in-nodes.adoc[leveloffset=+1]
+include::ROOT:partial$identify-vulnerabilities-in-nodes.adoc[leveloffset=+1]
 
-include::modules/disable-identify-vulnerabilities-in-nodes.adoc[leveloffset=+2]
+include::ROOT:partial$disable-identify-vulnerabilities-in-nodes.adoc[leveloffset=+2]
 
-include::modules/scan-inactive-images.adoc[leveloffset=+1]
+include::ROOT:partial$scan-inactive-images.adoc[leveloffset=+1]
 
 [id="common-tasks"]
 == Common tasks
 
 This section lists some common tasks you can perform from the *Vulnerability Management* view.
 
-include::modules/find-critical-cves-impacting-your-infrastructure.adoc[leveloffset=+2]
+include::ROOT:partial$find-critical-cves-impacting-your-infrastructure.adoc[leveloffset=+2]
 
-include::modules/find-the-most-vulnerable-image-components.adoc[leveloffset=+2]
+include::ROOT:partial$find-the-most-vulnerable-image-components.adoc[leveloffset=+2]
 
-include::modules/identify-which-layer-of-the-container-image-introduces-vulnerabilities.adoc[leveloffset=+2]
+include::ROOT:partial$identify-which-layer-of-the-container-image-introduces-vulnerabilities.adoc[leveloffset=+2]
 
-include::modules/view-details-only-for-fixable-cves.adoc[leveloffset=+2]
+include::ROOT:partial$view-details-only-for-fixable-cves.adoc[leveloffset=+2]
 
-include::modules/identify-operating-system-of-the-base-image.adoc[leveloffset=+2]
+include::ROOT:partial$identify-operating-system-of-the-base-image.adoc[leveloffset=+2]

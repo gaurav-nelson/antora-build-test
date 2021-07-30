@@ -1,6 +1,6 @@
 [id="install-quick-roxctl"]
 = Installing quickly by using the `roxctl` CLI
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: install-quick-roxctl
 
 toc::[]
@@ -32,24 +32,24 @@ To install {product-title} you must install the `roxctl` CLI by downloading the 
 You can install `roxctl` on Linux, Windows, or macOS.
 
 // Installing the CLI by downloading the binary
-include::modules/install-roxctl-cli-linux.adoc[leveloffset=2]
-include::modules/install-roxctl-cli-macos.adoc[leveloffset=+2]
-include::modules/install-roxctl-cli-windows.adoc[leveloffset=+2]
+include::ROOT:partial$install-roxctl-cli-linux.adoc[leveloffset=2]
+include::ROOT:partial$install-roxctl-cli-macos.adoc[leveloffset=+2]
+include::ROOT:partial$install-roxctl-cli-windows.adoc[leveloffset=+2]
 
 [id="installing-central"]
 == Installing Central
 
 The main component of {product-title} is called Central. You can install Central on {ocp} by using the interactive installer. You deploy Central only once and you can monitor multiple separate clusters by using the same installation.
 
-include::modules/using-the-interactive-installer.adoc[leveloffset=+2]
+include::ROOT:partial$using-the-interactive-installer.adoc[leveloffset=+2]
 
-include::modules/install-central-roxctl.adoc[leveloffset=+2]
+include::ROOT:partial$install-central-roxctl.adoc[leveloffset=+2]
 
-include::modules/install-scanner-roxctl.adoc[leveloffset=+1]
+include::ROOT:partial$install-scanner-roxctl.adoc[leveloffset=+1]
 
-include::modules/install-sensor-roxctl.adoc[leveloffset=+1]
+include::ROOT:partial$install-sensor-roxctl.adoc[leveloffset=+1]
 
-include::modules/verify-acs-installation.adoc[leveloffset=+1]
+include::ROOT:partial$verify-acs-installation.adoc[leveloffset=+1]
 
 [id="additional-resources"]
 [role="_additional-resources"]

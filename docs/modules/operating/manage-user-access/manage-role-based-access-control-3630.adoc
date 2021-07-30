@@ -1,6 +1,6 @@
 [id="manage-role-based-access-control"]
 = Managing RBAC in {product-title} 3.63 and newer
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: manage-role-based-access-control
 
 toc::[]
@@ -34,29 +34,29 @@ There are two types of roles in {product-title}:
 ** System access scopes, which are created by Red Hat and cannot be changed.
 ** Custom access scopes, which {product-title} administrators can create and change at any time.
 
-include::modules/rbac-system-roles-3630.adoc[leveloffset=+1]
+include::ROOT:partial$rbac-system-roles-3630.adoc[leveloffset=+1]
 
-include::modules/view-system-roles-permission-scope.adoc[leveloffset=+2]
+include::ROOT:partial$view-system-roles-permission-scope.adoc[leveloffset=+2]
 
-include::modules/create-a-custom-role-3630.adoc[leveloffset=+2]
+include::ROOT:partial$create-a-custom-role-3630.adoc[leveloffset=+2]
 
 [role="additional-resources"]
 .Additional resources
 * xref:../../operating/manage-user-access/manage-role-based-access-control-3630.adoc#create-a-custom-permission-set_manage-role-based-access-control[Creating a custom permission set]
 * xref:../../operating/manage-user-access/manage-role-based-access-control-3630.adoc#create-a-custom-access-scope_manage-role-based-access-control[Creating a custom access scope]
 
-include::modules/assign-role-to-user-or-group.adoc[leveloffset=+2]
+include::ROOT:partial$assign-role-to-user-or-group.adoc[leveloffset=+2]
 
-include::modules/rbac-permission-sets.adoc[leveloffset=+1]
+include::ROOT:partial$rbac-permission-sets.adoc[leveloffset=+1]
 
-include::modules/view-system-permission-set.adoc[leveloffset=+2]
+include::ROOT:partial$view-system-permission-set.adoc[leveloffset=+2]
 
-include::modules/create-a-custom-permission-set.adoc[leveloffset=+2]
+include::ROOT:partial$create-a-custom-permission-set.adoc[leveloffset=+2]
 
-include::modules/rbac-access-scopes.adoc[leveloffset=+1]
+include::ROOT:partial$rbac-access-scopes.adoc[leveloffset=+1]
 
-include::modules/view-system-access-scopes.adoc[leveloffset=+2]
+include::ROOT:partial$view-system-access-scopes.adoc[leveloffset=+2]
 
-include::modules/create-a-custom-access-scope.adoc[leveloffset=+2]
+include::ROOT:partial$create-a-custom-access-scope.adoc[leveloffset=+2]
 
-include::modules/rbac-resource-definitions.adoc[leveloffset=+1]
+include::ROOT:partial$rbac-resource-definitions.adoc[leveloffset=+1]

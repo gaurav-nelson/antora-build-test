@@ -1,6 +1,6 @@
 [id="integrate-with-ci-systems"]
 = Integrating with CI systems
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: integrate-with-ci-systems
 
 toc::[]
@@ -30,16 +30,16 @@ To integrate {product-title} with your CI system, follow these steps:
 
 To check {product-title} policies during builds, you must first configure policies that apply to the build phase of the container lifecycle. And then you must integrate with the registry that images are pushed to during the build.
 
-include::modules/integrate-ci-check-existing-build-phase-policies.adoc[leveloffset=+2]
+include::ROOT:partial$integrate-ci-check-existing-build-phase-policies.adoc[leveloffset=+2]
 
-include::modules/create-new-system-policy.adoc[leveloffset=+2]
+include::ROOT:partial$create-new-system-policy.adoc[leveloffset=+2]
 
 [id="configure-registry-integration"]
 == Configuring registry integration
 
 To scan images, you must provide {product-title} with access to the image registry you are using in your build pipeline.
 
-include::modules/check-for-existing-registry-integration.adoc[leveloffset=+2]
+include::ROOT:partial$check-for-existing-registry-integration.adoc[leveloffset=+2]
 
 [role="_additional-resources"]
 .Additional resources
@@ -53,7 +53,7 @@ The `roxctl` CLI prints detailed information about problems and how to fix them 
 
 To securely authenticate to the {product-title} API server, you must create an API token.
 
-include::modules/cli-authentication.adoc[leveloffset=+2]
+include::ROOT:partial$cli-authentication.adoc[leveloffset=+2]
 
 [id="install-roxctl-cli-binary"]
 === Installing the roxctl CLI by downloading the binary
@@ -62,12 +62,12 @@ You can install the `roxctl` CLI to interact with {product-title} from a
 command-line interface. You can install `roxctl` on Linux, Windows, or macOS.
 
 // Installing the CLI by downloading the binary
-include::modules/install-roxctl-cli-linux.adoc[leveloffset=+3]
-include::modules/install-roxctl-cli-macos.adoc[leveloffset=+3]
-include::modules/install-roxctl-cli-windows.adoc[leveloffset=+3]
+include::ROOT:partial$install-roxctl-cli-linux.adoc[leveloffset=+3]
+include::ROOT:partial$install-roxctl-cli-macos.adoc[leveloffset=+3]
+include::ROOT:partial$install-roxctl-cli-windows.adoc[leveloffset=+3]
 
 // Running the CLI by using a container image
-include::modules/run-roxctl-from-container.adoc[leveloffset=+2]
+include::ROOT:partial$run-roxctl-from-container.adoc[leveloffset=+2]
 
 [id="integrate-with-your-ci-pipeline"]
 == Integrating with your CI pipeline
@@ -82,4 +82,4 @@ Each CI system might require a slightly different configuration.
 Use the link:https://plugins.jenkins.io/stackrox-container-image-scanner[StackRox Container Image Scanner] Jenkins plugin for integrating with Jenkins.
 You can use this plugin in both Jenkins freestyle projects and pipelines.
 
-include::modules/integrate-circle-ci.adoc[leveloffset=+2]
+include::ROOT:partial$integrate-circle-ci.adoc[leveloffset=+2]

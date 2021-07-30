@@ -1,6 +1,6 @@
 [id="enable-alert-data-retention"]
 = Enabling alert data retention
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: enable-alert-data-retention
 
 toc::[]
@@ -27,4 +27,4 @@ The alerts for which you can configure the retention period include:
 Currently, you cannot change this.
 ====
 
-include::modules/configure-alert-data-retention.adoc[leveloffset=+1]
+include::ROOT:partial$configure-alert-data-retention.adoc[leveloffset=+1]

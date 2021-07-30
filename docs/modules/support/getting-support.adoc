@@ -1,6 +1,6 @@
 [id="getting-support"]
 = Getting support for {product-title}
-include::modules/common-attributes.adoc[]
+include::ROOT:partial$common-attributes.adoc[]
 :context: getting-support
 
 toc::[]
@@ -25,6 +25,6 @@ error, please submit a link:http://bugzilla.redhat.com[Bugzilla report] against 
 *{product-title}* product for the *Documentation* component. Please
 provide specific details, such as the section name and {product-title} version.
 
-include::modules/support-knowledgebase-about.adoc[leveloffset=+1]
-include::modules/support-knowledgebase-search.adoc[leveloffset=+1]
-include::modules/support-submitting-a-case.adoc[leveloffset=+1]
+include::ROOT:partial$support-knowledgebase-about.adoc[leveloffset=+1]
+include::ROOT:partial$support-knowledgebase-search.adoc[leveloffset=+1]
+include::ROOT:partial$support-submitting-a-case.adoc[leveloffset=+1]
